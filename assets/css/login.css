@@ -1,0 +1,43 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/login_bg.jpg) no-repeat center / cover;
+}
+.login-or-reg {
+    width: 400px;
+    height: 310px;
+    background-color: pink;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -60%);
+}
+.title-box {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+.login-box {
+    margin-top: 20px;
+}
+.reg-box {
+    display: none;
+}
+.layui-form {
+    padding: 0 30px;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+.layui-form-item {
+    position: relative;
+}
+.layui-form-item i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.layui-input {
+    padding-left: 32px;
+}
