@@ -15,7 +15,7 @@ $(function () {
 
     form.verify({
         // 自定义正则规则
-        psw : [/^[\S]{6,9}$/,'密码必须是6到9位'],
+        psw : [/^[\S]{6,12}$/,'密码必须是6到12位'],
         repsw : function (value) {
             let psw = $(".reg-box [name=password]").val()
             if(value !== psw) return '俩次密码不一致'

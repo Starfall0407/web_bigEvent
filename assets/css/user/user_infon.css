@@ -1,0 +1,16 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F3F5;
+    padding: 10px;
+}
+.layui-form-item span {
+    display: inline-block;
+}
+
+.layui-input-block {
+    width: 300px;
+}

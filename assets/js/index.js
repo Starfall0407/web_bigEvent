@@ -43,6 +43,7 @@ $(function () {
             // }
         })
     }
+    // 渲染用户信息
     function renderUserInfo(userInfo) {
         // 优先使用用的的昵称，没有就用用户名
         let name = userInfo.nickname || userInfo.username
@@ -51,7 +52,7 @@ $(function () {
         if (userInfo.user_pic !== null) {
             $(".text-avater").hide()
             $(".layui-nav-img")
-                            .atter('src', userInfo.user_pic)
+                            .attr('src', userInfo.user_pic)
                             .show()
         } else {
             // 获取用户名第一个字符并且转换为大写
